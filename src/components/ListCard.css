@@ -54,7 +54,11 @@
     gap: 25px;
     margin-top: 10px;
     font-size: 18px;
+}
+
+.time {
     color: hsl(180, 8%, 52%);
+    list-style: none;
 }
 
 li {
