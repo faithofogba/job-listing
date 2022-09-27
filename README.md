@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:  (https://https://github.com/faithofogba/job-listing)
-- Live Site URL: (https://https://static-job-listing-f.netlify.app/)
+- Solution URL:  (https://github.com/faithofogba/job-listing)
+- Live Site URL: (https://static-job-listing-f.netlify.app/)
 
 ### Built with
 
