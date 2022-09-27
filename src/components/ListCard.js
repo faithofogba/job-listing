@@ -46,7 +46,7 @@ export default function Card({
           </div>
           <h2 className="sub-header">{position}</h2>
           <ul className="details">
-            <p className="time">{postedAt}</p>
+            {postedAt}
             <li>{contract}</li>
             <li>{location}</li>
           </ul>
