@@ -1,0 +1,11 @@
+.main {
+    background-color: hsl(180, 52%, 96%);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    .main {
+        padding-inline: 10%;
+    }
+}

@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+/* ------------------------------- */
+/*  Custom properties              */
+/* ------------------------------- */
+
+:root {
+  /* colors */
+ --clr-dark: 230 30% 7%;
+ --clr-light: 231 77% 90%;
+ --clr-white: 0 0% 100%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ------------------------------- */
+/*  Reset                          */
+/* ------------------------------- */
+
+/*   Box sizing  */
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*   Reset margin  */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+figure,
+picture {
+ margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul {
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ font-weight: 400;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*   Set up the body  */
+body {
+ line-height: 1.5;
+ min-height: 100vh;
+ font-family: 'League Spartan', sans-serif;
+ font-weight: 500;
+ /* font-size: 15px; */
 }
+
+/*   Make images easier to work with  */
+img,
+picture {
+ max-width: 100%;
+ display: block;
+}
+
+/*   Make form elements easier to work with  */
+input,
+textarea,
+button,
+select {
+ font: inherit;
+}
+
+/*   Remove animation for people who've turned them off  */
+@media (prefers-reduced-motion: reduce) {
+
+ *,
+ *::before,
+ *::after {
+     animation-duration: 0.01ms !important;
+     animation-iteration-count: 1 !important;
+     transition-duration: 0.01ms !important;
+     scroll-behavior: auto !important;
+ }
+}
+
+
+
+
